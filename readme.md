@@ -18,3 +18,10 @@ dotnet add SportsSln/SportsStore.Tests package Moq
 .gitignore
 readme.md
 ```
+
+# Creating the Application Project Folders
+Models
+Controllers
+Views
+Views/Home
+Views/Shared
