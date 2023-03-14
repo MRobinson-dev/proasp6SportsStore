@@ -18,3 +18,20 @@ dotnet add SportsSln/SportsStore.Tests package Moq
 .gitignore
 readme.md
 ```
+
+# Creating the Application Project Folders
+Models
+Controllers
+Views
+Views/Home
+Views/Shared
+
+# Add Entity Framework
+- make sure that SQL localdb is installed (windows)
+from SportsStore folder - open developer powershell
+```
+dotnet add package Microsoft.EntityFrameworkCore.Design 
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+dotnet tool uninstall --global dotnet-ef
+dotnet tool install --global dotnet-ef 
+```
